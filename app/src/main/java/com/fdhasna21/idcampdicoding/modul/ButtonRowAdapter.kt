@@ -1,4 +1,4 @@
-package com.fdhasna21.idcampdicoding
+package com.fdhasna21.idcampdicoding.modul
 
 import android.content.Context
 import android.content.Intent
@@ -6,7 +6,6 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.fdhasna21.idcampdicoding.databinding.ButtonRowAdapterBinding
-import com.fdhasna21.idcampdicoding.modul.ModulDataClass
 import java.util.ArrayList
 
 class ButtonRowAdapter(val data : ArrayList<ModulDataClass>, val context: Context)
